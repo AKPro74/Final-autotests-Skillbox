@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 120
+# длинна строки
+
+exclude  = venv, results, __init__.py, __pycache__, .git
+# игнор папок/файлов
+
+ignore = E1
+# игнор ошибок
+
+

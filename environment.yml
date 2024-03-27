@@ -1,0 +1,14 @@
+name: test2
+channels: 
+ - conda-forge
+ - microsoft
+ - defaults
+dependencies:
+ - python=3.11
+ - requests=2.26.0
+ - python-chromedriver-binary
+ - selenium=4.12
+ - pytest
+ - allure-pytest
+ - flake8
+ - playwright
